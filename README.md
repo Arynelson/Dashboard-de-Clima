@@ -81,9 +81,13 @@ As informações climáticas serão exibidas na tela.
 📂 Estrutura do Projeto
 
 dashboard-clima/
+
 ├── index.html      # Estrutura principal da aplicação.
+
 ├── style.css       # Estilos visuais do dashboard.
+
 ├── app.js          # Lógica de integração com a API Weatherstack.
+
 ├── README.md       # Documentação do projeto.
 
 🔑 Sobre a API
