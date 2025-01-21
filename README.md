@@ -90,6 +90,7 @@ dashboard-clima/
 
 ├── README.md       # Documentação do projeto.
 
+
 🔑 Sobre a API
 
 O projeto utiliza a API da Weatherstack, que fornece dados climáticos em tempo real.
@@ -105,12 +106,17 @@ Como configurar sua chave de API:
 ✨ Tecnologias Utilizadas
 
 HTML5: Estrutura básica da aplicação.
+
 CSS3: Estilização e layout responsivo.
+
 JavaScript (ES6+): Manipulação de dados e integração com a API.
 
+
 📝 Licença
+
 Este projeto está licenciado sob a licença MIT.
 
 📧 Contato
+
 Autor: Ary Hauffe Neto
 GitHub: https://github.com/Arynelson
