@@ -1,0 +1,111 @@
+/* Reset básico */
+body, h1, h2, p, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Fundo fosco */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Conteúdo principal */
+.main-content {
+    background-color: #ffffff; /* Fundo branco para contraste */
+    border-radius: 8px;
+    padding: 20px 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+
+/* Seção de busca */
+.search {
+    margin-bottom: 20px;
+}
+
+.search input {
+    width: calc(100% - 90px);
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.search button {
+    padding: 8px 15px;
+    font-size: 14px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: #0056b3;
+}
+
+/* Informações do clima */
+.weather-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.weather-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.weather-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.weather-info img {
+    margin: 10px 0;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+    .search input {
+        width: calc(100% - 80px);
+    }
+
+    .search button {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    .weather-info h2 {
+        font-size: 18px;
+    }
+
+    .weather-info p {
+        font-size: 12px;
+    }
+}
