@@ -3,6 +3,7 @@
 Este é um **Dashboard de Clima** que utiliza a API da **Weatherstack** para fornecer informações meteorológicas em tempo real. O projeto é uma aplicação simples e responsiva que permite ao usuário pesquisar por cidades e obter dados como temperatura, condições climáticas, umidade e velocidade do vento.
 
 ---
+![image](https://github.com/user-attachments/assets/896e270c-36e7-4c31-a9fe-c3daf06a7bec)
 
 ## 🛠️ Funcionalidades
 
@@ -35,17 +36,6 @@ Este é um **Dashboard de Clima** que utiliza a API da **Weatherstack** para for
 
 4. As informações climáticas serão exibidas na tela.
 
-5. 
-Aqui está o arquivo README.md para o seu projeto Dashboard de Clima, pronto para ser adicionado ao GitHub:
-
-markdown
-Copiar
-Editar
-# Dashboard de Clima 🌤️
-
-Este é um **Dashboard de Clima** que utiliza a API da **Weatherstack** para fornecer informações meteorológicas em tempo real. O projeto é uma aplicação simples e responsiva que permite ao usuário pesquisar por cidades e obter dados como temperatura, condições climáticas, umidade e velocidade do vento.
-
----
 
 ## 🛠️ Funcionalidades
 
@@ -89,7 +79,6 @@ dashboard-clima/
 ├── app.js          # Lógica de integração com a API Weatherstack.
 
 ├── README.md       # Documentação do projeto.
-
 
 🔑 Sobre a API
 
