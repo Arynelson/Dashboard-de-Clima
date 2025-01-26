@@ -1,3 +1,4 @@
+
 const API_KEY = 'a2b778c3a9dc90266decefe4cc0598f4'; // Sua chave da Weatherstack
 
 async function buscarClima() {
