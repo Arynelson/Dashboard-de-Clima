@@ -2,9 +2,13 @@
 
 Este é um **Dashboard de Clima** que utiliza a API da **Weatherstack** para fornecer informações meteorológicas em tempo real. O projeto é uma aplicação simples e responsiva que permite ao usuário pesquisar por cidades e obter dados como temperatura, condições climáticas, umidade e velocidade do vento.
 
+
+
 ---
 
 ![image](https://github.com/user-attachments/assets/896e270c-36e7-4c31-a9fe-c3daf06a7bec)
+
+
 
 ## 🛠️ Funcionalidades
 
