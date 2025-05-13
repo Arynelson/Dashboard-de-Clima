@@ -1,7 +1,5 @@
-# Dashboard de Clima 🌤️
-
-Este é um **Dashboard de Clima** que utiliza a API da **Weatherstack** para fornecer informações meteorológicas em tempo real. O projeto é uma aplicação simples e responsiva que permite ao usuário pesquisar por cidades e obter dados como temperatura, condições climáticas, umidade e velocidade do vento.
-
+🌤️ Weather Dashboard
+This is a Weather Dashboard that uses the Weatherstack API to provide real-time weather information. The project is a simple and responsive application that allows users to search for cities and retrieve data such as temperature, weather conditions, humidity, and wind speed.
 
 
 ---
@@ -9,108 +7,63 @@ Este é um **Dashboard de Clima** que utiliza a API da **Weatherstack** para for
 ![image](https://github.com/user-attachments/assets/896e270c-36e7-4c31-a9fe-c3daf06a7bec)
 
 
+🛠️ Features
+  Real-time weather search by city.
+  Display of detailed information:
+  City name.
+  Current temperature.
+  Weather conditions (sunny, rainy, etc.).
+  Humidity.
+  Wind speed.
+  Weather condition icons.
+  Responsive and intuitive layout.
 
-## 🛠️ Funcionalidades
+🚀 How to Use
+  Prerequisites
+  An up-to-date web browser.
 
-- Busca de condições climáticas em tempo real por cidade.
-- Exibição de informações detalhadas:
-  - Nome da cidade.
-  - Temperatura atual.
-  - Condições climáticas (ensolarado, chuvoso, etc.).
-  - Umidade.
-  - Velocidade do vento.
-- Ícones representando as condições climáticas.
-- Layout responsivo e intuitivo.
+Internet connection.
+Steps to run the project:
+Clone the repository:
 
----
+```
+git clone https://github.com/aryhneto/dashboard-clima.git
+cd dashboard-clima
+```
 
-## 🚀 Como usar
+Open the index.html file in your browser.
 
-### Pré-requisitos
-- Navegador web atualizado.
-- Conexão com a internet.
+Enter the name of a city in the search field and click the "Search" button.
 
-### Passos para executar o projeto:
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/aryhneto/dashboard-clima.git
-   cd dashboard-clima
-2. Abra o arquivo index.html no navegador.
+The weather information will be displayed on the screen.
 
-3. Digite o nome de uma cidade no campo de busca e clique no botão Buscar.
-
-4. As informações climáticas serão exibidas na tela.
-
-
-## 🛠️ Funcionalidades
-
-- Busca de condições climáticas em tempo real por cidade.
-- Exibição de informações detalhadas:
-  - Nome da cidade.
-  - Temperatura atual.
-  - Condições climáticas (ensolarado, chuvoso, etc.).
-  - Umidade.
-  - Velocidade do vento.
-- Ícones representando as condições climáticas.
-- Layout responsivo e intuitivo.
-
----
-
-## 🚀 Como usar
-
-### Pré-requisitos
-- Navegador web atualizado.
-- Conexão com a internet.
-
-### Passos para executar o projeto:
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/aryhneto/dashboard-clima.git
-   cd dashboard-clima
-Abra o arquivo index.html no navegador.
-
-Digite o nome de uma cidade no campo de busca e clique no botão Buscar.
-
-As informações climáticas serão exibidas na tela.
-
-📂 Estrutura do Projeto
-
+📂 Project Structure
+```
 dashboard-clima/
+├── index.html      # Main application structure
+├── style.css       # Dashboard styling
+├── app.js          # Weatherstack API integration logic
+├── README.md       # Project documentation
+```
+🔑 About the API
+This project uses the Weatherstack API, which provides real-time weather data.
 
-├── index.html      # Estrutura principal da aplicação.
+How to configure your API key:
+Visit the Weatherstack website and create an account.
 
-├── style.css       # Estilos visuais do dashboard.
+Obtain your free API key.
 
-├── app.js          # Lógica de integração com a API Weatherstack.
+Replace the placeholder in app.js:
 
-├── README.md       # Documentação do projeto.
+javascript
+```
+const API_KEY = 'your_api_key_here';
 
-🔑 Sobre a API
+```
+✨ Technologies Used
+HTML5: Basic application structure
+CSS3: Styling and responsive layout
+JavaScript (ES6+): Data handling and API integration
 
-O projeto utiliza a API da Weatherstack, que fornece dados climáticos em tempo real.
-
-Como configurar sua chave de API:
-
-1. Acesse o site Weatherstack e crie uma conta.
-2. Obtenha sua chave de API gratuita.
-3. Substitua a chave no arquivo app.js
-
-    const API_KEY = 'sua_chave_aqui';
-
-✨ Tecnologias Utilizadas
-
-HTML5: Estrutura básica da aplicação.
-
-CSS3: Estilização e layout responsivo.
-
-JavaScript (ES6+): Manipulação de dados e integração com a API.
-
-
-📝 Licença
-
-Este projeto está licenciado sob a licença MIT.
-
-📧 Contato
-
-Autor: Ary Hauffe Neto
-GitHub: https://github.com/Arynelson
+📝 License
+This project is licensed under the MIT License.
